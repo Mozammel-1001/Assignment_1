@@ -7,9 +7,13 @@
         "wdth" 100;
 }
 
+/* Body Style */
+body {
+    background-color: #F5F5F5;
+}
 
 /* Banner Style */
-.banner{
+.banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,19 +23,22 @@
     padding: 50px;
     border-radius: 24px;
 }
-.banner_title{
+
+.banner_title {
     font-weight: 500;
     font-size: 18px;
     color: rgba(14, 14, 14, 0.50);
 }
-.banner_subtitle{
+
+.banner_subtitle {
     font-weight: bold;
     color: #0E0E0E;
     font-size: 50px;
     margin-top: 16px;
     margin-bottom: 24px;
 }
-.banner_btn{
+
+.banner_btn {
     font-weight: 600;
     font-size: 18px;
     background-color: #006A50;
@@ -39,5 +46,88 @@
     border-radius: 8px;
     padding: 17px 34px;
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Vision Card Style */
+.vision {
+    margin: 80px 160px;
+}
+
+.vision_title {
+    font-weight: bold;
+    color: #0E0E0E;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.vision_description {
+    color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 32px;
+}
+
+.vision_cards {
+    display: flex;
+    gap: 24px;
+}
+
+.vision_card_1 {
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.20);
+    padding: 32px;
+}
+
+.vision_card_2 {
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    padding: 32px;
+}
+
+.vision_card_3 {
+    border-radius: 16px;
+    background-color: #F7EBCF;
+    padding: 32px;
+}
+
+.vision_card_title {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.80);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.vision_card_description {
+    color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 24px;
+}
+
+.card_1_btn {
+    background-color: #5490F5;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.card_2_btn {
+    background-color: #09A15C;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.card_3_btn {
+    background-color: #FFC239;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: none;
     cursor: pointer;
 }
