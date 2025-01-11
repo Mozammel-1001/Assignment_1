@@ -72,18 +72,21 @@ body {
 }
 
 .vision_card_1 {
+    flex: 1;
     border-radius: 16px;
     background-color: rgba(84, 144, 245, 0.20);
     padding: 32px;
 }
 
 .vision_card_2 {
+    flex: 1;
     border-radius: 16px;
     background-color: #C6E4D6;
     padding: 32px;
 }
 
 .vision_card_3 {
+    flex: 1;
     border-radius: 16px;
     background-color: #F7EBCF;
     padding: 32px;
@@ -333,4 +336,31 @@ input[type=number]::-webkit-outer-spin-button {
     border: none;
     padding: 17px 34px;
     cursor: pointer;
+}
+
+/* Quote Styles */
+.quote{
+    margin: 80px 160px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.quotation{
+    padding-top: 55px;
+    padding-bottom: 30px;
+    color: rgba(14, 14, 14, 0.80);
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 28px;
+}
+.quotation_teller{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.80);
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.quotation_teller_role{
+    color: rgba(14, 14, 14, 0.60);
+    font-weight: 400;
+    margin-top: 0;
 }
