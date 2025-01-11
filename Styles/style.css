@@ -1,0 +1,43 @@
+/* Font Style */
+.fira_sans_normal {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+/* Banner Style */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    margin: 120px 160px 80px;
+    background-color: #C6E4D6;
+    padding: 50px;
+    border-radius: 24px;
+}
+.banner_title{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(14, 14, 14, 0.50);
+}
+.banner_subtitle{
+    font-weight: bold;
+    color: #0E0E0E;
+    font-size: 50px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.banner_btn{
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
